@@ -1,0 +1,5 @@
+@media print {
+  .tm-header-mobile, .tm-header, .no-print {
+    display:none;
+  }
+}

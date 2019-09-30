@@ -1,0 +1,46 @@
+.uk-form input[type="radio"], .uk-form input[type="checkbox"] {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #433c3d;
+    overflow: hidden;
+    margin-top: -4px;
+    margin-right: 10px;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    outline: 0;
+	}
+	
+.radio-buttons label:nth-child(n+1) {
+margin-right: 20px;
+}
+
+.uk-form input[type=radio]:checked:before {
+margin: 3px auto 0;
+}
+
+.uk-form .formValidation {
+    display: block;
+}
+
+
+
+input[type=text].uk-form-danger {
+    height: 36px;
+    width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid rgba(255, 0, 0, 0.7)!important;
+    background-color: rgba(255,255,255,.1);
+    color: rgba(255,255,255,.9);
+}
+
+
+.uk-input, .uk-select, .uk-textarea {
+    border: 0px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.uk-input:focus, .uk-select:focus, .uk-textarea:focus {   
+    border-bottom-color: #222;
+}
